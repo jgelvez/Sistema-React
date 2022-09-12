@@ -7,7 +7,7 @@ function App() {
     firstName: "David",
     lastName: "Gallo",
   };
-
+// min 49
   return (
     <div>
       <h1 className="text-3xl font-bold underline text-red-500">
