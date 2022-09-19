@@ -1,21 +1,32 @@
 import { useState } from "react";
 import "./App.css";
+import { Prueba, Frase, Casado } from "./Prueba"
+import {Button} from "./Button"
+import {TaskCard} from "./Task"
+import {Saludar} from "./Saludar"
 
 function App() {
-  const merried = false;
-  const persona = {
-    firstName: "David",
-    lastName: "Gallo",
-  };
-// min 49
+  
+  // hs 1:54
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline text-red-500">
-        {merried ? "Estoy casado" : "No estoy casado"}
-      </h1>
-      <h1 className="text-3xl font-bold underline text-yellow-500"> {persona.firstName} </h1>
-      <h2 className="text-3xl font-bold underline text-blue-500"> {persona.lastName} </h2>
-    </div>
+    <>
+    <Button text='Apretame'/>
+    <Button name='Coso'/>
+    <TaskCard />
+    <Saludar />
+      {/* 
+      <Prueba valor={25} valor2={30} />
+      <Prueba valor="Julian" />
+      <Frase
+        name="David"
+        surname="Gallo"
+        address={{ calle: 'Mitre', altura: '2585' }}
+        cp={9100}
+        brothers={['Giuliana', 'Ale', 'Sabri']} />
+        */}
+
+      
+    </>
   );
 }
 
