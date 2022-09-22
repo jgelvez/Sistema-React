@@ -8,7 +8,7 @@ import {Posts} from "./Posts"
 // usar librerías https://react-icons.github.io/react-icons/icons?name=di ---- https://mui.com/
 function App() {
   
-  // hs 1:54
+  // hs 2:23
   return (
     <>
       <Button text='Apretame'/>
