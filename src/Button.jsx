@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types'
+import { DiAndroid } from "react-icons/di";
 
 export function Button({text='Yo',name}){
     return  <button className="border-black border-2 rounded">
-        {text} - {name}
+      <DiAndroid/>  {text} - {name}
     </button>
 }
 
