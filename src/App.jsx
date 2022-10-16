@@ -6,15 +6,17 @@ import {TaskCard} from "./Task"
 import {Saludar} from "./Saludar"
 import {Posts} from "./Posts"
 import {Robot} from "./Robot"
+import {Counter} from "./Counter"
 // usar librerías https://react-icons.github.io/react-icons/icons?name=di ---- https://mui.com/
 function App() {
   
-  // hs 2:38
+  // hs 2:40.8
   return (
     <>
+      <Counter/>
       
-      <Robot/>
       {/*
+      <Robot/>
       <Button text='Apretame'/>
       <Button name='Coso'/>
       <TaskCard />
